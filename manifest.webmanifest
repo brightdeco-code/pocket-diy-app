@@ -1,0 +1,24 @@
+{
+  "name": "Pocket DIY \u2014 Little jobs. Made simple.",
+  "short_name": "Pocket DIY",
+  "description": "20 free beginner DIY guides, calculators, checklists and trade tips.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#03462c",
+  "theme_color": "#03462c",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

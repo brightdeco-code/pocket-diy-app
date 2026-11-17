@@ -1,0 +1,19 @@
+POCKET DIY — NATIVE APP SOURCE STARTER
+
+This is NOT an IPA, APK, or store-ready release. It packages the approved web app for Capacitor.
+
+App identifier uk.co.pocketdiy.app is a PROVISIONAL placeholder; choose and verify a unique identifier before release.
+
+On a suitable build machine or hosted development environment with Node.js:
+1. npm install
+2. npx cap add android
+3. npx cap add ios
+4. npx cap sync
+5. Build Android using Android Studio / CI with Android SDK.
+6. Build iOS using Xcode on macOS or a suitable hosted macOS build service, with signing credentials.
+
+Test offline access, all 20 guides, calculator, saved items, external links, permissions and safe-area layout on physical devices. Capacitor WebView storage is separate from Safari/PWA: previously saved items do NOT automatically transfer.
+
+This is an initial source scaffold, not an approved native feature set. Store review can reject apps that merely wrap a website; add meaningful native functionality and test before paying submission fees. Premium digital purchases will require compliant store billing and entitlement handling.
+
+Keep Cloudflare website deployed independently. Do not upload this source ZIP to Cloudflare Pages; use the existing website deployment ZIP for website changes.
