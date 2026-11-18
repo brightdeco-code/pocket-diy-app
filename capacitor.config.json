@@ -1,6 +1,6 @@
 {
   "appId": "uk.co.pocketdiy.app",
   "appName": "Pocket DIY",
-  "webDir": "www",
+  "webDir": ".",
   "bundledWebRuntime": false
 }
